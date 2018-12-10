@@ -3,7 +3,7 @@ layout: post
 title: Os passos iniciais para constituir uma Organização Religiosa
 image: personalidade-juridica-igreja.jpg
 date: 2018-11-09 09:30:00 -0200
-categories: gestao-igrejas juridico
+categories: juridico
 ---
 
 1. Reunir um grupo de pessoas para que, em comum acordo, decidir sobre sua fé, propósitos, diretrizes, propostas e normas a serem seguidas;

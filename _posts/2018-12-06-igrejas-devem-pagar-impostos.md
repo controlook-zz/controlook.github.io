@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Você acha que as igrejas devem pagar impostos?
-author: Vinicios (Customer Success)
+author: Vinicios Monteiro (Customer Success)
 image: igrejas-devem-pagar-impostos.jpg
 date: 2018-12-06 08:54:30 -0200
 categories: gestao-igrejas

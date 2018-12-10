@@ -1,17 +1,21 @@
 {% if paginator.total_pages > 1 %}
 <ul class="paginacao">
     {% if paginator.previous_page %}
-    <li><a href="{{ paginator.previous_page_path }}#all-posts"><i class="fas fa-angle-left"></i></a></li>
+    <li><a href="{{ paginator.previous_page_path | relative_url }}#all-posts"><i class="fas fa-angle-left"></i></a></li>
     {% endif %}
-    {% if paginator.page_trail %}
-    {% for trail in paginator.page_trail %}
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == 1 %}
     <li>
-        <a href=" {{ trail.path | prepend: site.baseurl | replace: '//', '/' }}#all-posts" title="Página {{trail.num}}" {% if page.pagination_info.curr_page==trail.num %}class="ativo" {% endif %}>{{ trail.num }}</a>
+        <a href="/index#all-posts" title="Página {{trail.num}}" {% if page==paginator.page %}class="ativo" {% endif %}>{{ page }}</a>
     </li>
-    {% endfor %}
+    {% else %}
+    <li>
+        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}#all-posts" title="Página {{trail.num}}" {% if page==paginator.page %}class="ativo" {% endif %}>{{ page }}</a>
+    </li>
     {% endif %}
+    {% endfor %}
     {% if paginator.next_page %}
-    <li><a href="{{ paginator.next_page_path }}#all-posts"><i class="fas fa-angle-right"></i></a></li>
+    <li><a href="{{ paginator.next_page_path | relative_url }}#all-posts"><i class="fas fa-angle-right"></i></a></li>
     {% endif %}
 </ul>
 {% endif %}

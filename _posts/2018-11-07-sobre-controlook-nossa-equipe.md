@@ -3,7 +3,7 @@ layout: post
 title: Sobre o Controlook e nossa equipe
 image: cultura-controlook.jpg
 date: 2018-11-07 13:00:00 -0200
-categories: gestao-igrejas cultura-controlook
+categories: cultura-controlook
 ---
 
 Toda equipe de sócios e gestores do controlook são formados por pessoas com décadas de vivência em atividades religiosas, principalmente atuando na liderança de igrejas, ministérios, projetos sociais e atividades eclesiásticas em geral. Além desse atuar voluntário, estes mesmos sócios são profissionais experientes em áreas como engenharia, ciência da computação, administração, contabilidade, finanças e direito.

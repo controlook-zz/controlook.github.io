@@ -3,7 +3,7 @@ layout: post
 title: Como a Igreja adquire sua personalidade jurídica?
 image: personalidade-juridica-igreja.jpg
 date: 2018-11-14 14:30:00 -0200
-categories: gestao-igrejas juridico
+categories: juridico
 ---
 
 As organizações religiosas são constituídas com base na Lei 10.406 de 10 de janeiro de 2002, que instituiu o novo Código Civil Brasileiro e assim dispõe no seu artigo 44 e 45.

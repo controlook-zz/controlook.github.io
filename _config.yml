@@ -16,7 +16,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
 
 sass:
@@ -24,49 +24,18 @@ sass:
 
 permalink: pretty
 
-autopages:
-  # Site-wide kill switch, disable here and it doesn't run at all
-  enabled: true
+paginate: 3
 
-  # Category pages, omit entire config element to disable
-  categories:
-    # Optional, the list of layouts that should be processed for every category found in the site
-    layouts:
-      - "categories.html"
-    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: "Posts in category :cat"
-    # Optional, the permalink for the  pagination page (:cat is replaced),
-    # the pagination permalink path is then appended to this permalink structure
-    permalink: "/category/:cat"
-
-  # Collection pages, omit to disable
-  collections:
-    enabled: false
-  #   layouts:
-  #     - "collection.html"
-  #   title: "Posts in collection :coll" # :coll is replaced by the collection name
-  #   permalink: "/collection/:coll"
-  # Tag pages, omit to disable
-  tags:
-    enabled: false
-  #   layouts:
-  #     - "autopage_tags.html"
-  #   title: "Posts tagged with :tag" # :tag is replaced by the tag name
-  #   permalink: "/tag/:tag"
-
-pagination:
-  enabled: true
-  per_page: 9
-  permalink: "/:num/"
-  # title_suffix: " - page :num"
-  limit: 0
-  sort_field: "date"
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
+collections:
+  category:
+    output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
   - scope:
       # path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.

@@ -3,7 +3,7 @@ layout: post
 title: A personalidade jurídica das igrejas
 image: personalidade-juridica-igreja.jpg
 date: 2018-11-09 09:30:00 -0200
-categories: gestao-igrejas juridico
+categories: juridico
 ---
 
 **Uma igreja pode ser considerada como um ajuntamento de pessoas, que professam a mesma fé, com a finalidade de prestar culto. Esta definição já promove sua existência de fato, porém, a existência de direito vem com a sua formalização jurídica, ou seja, a igreja precisa se tornar uma pessoa jurídica.**
