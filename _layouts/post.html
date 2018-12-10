@@ -1,0 +1,80 @@
+---
+layout: default
+comments: true
+---
+
+<div class="titulo_wrap">
+    <p class="tag empresarial">
+        {% for post_category in page.categories %}
+        {% for category in site.data.categories %}
+        {% if post_category == category.slug %}{{ category.name }}{% endif %}
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+        {% endfor %}
+    </p>
+    <h1>{{ page.title | escape }}</h1>
+    <p>
+        <span class="data">{{ page.date | date: "%d/%m/%Y" }}</span>
+        <span class="author"> {{ page.author | default: "Equipe Controlook" }}</span>
+    </p>
+    <img class="foto" src="/assets/img/posts/{{ page.image | default: "default.jpg" }}" alt="">
+</div>
+<div class="conteudo_wrap ckeditor">
+    {{ content }}
+</div>
+
+
+<h2>Posts Relacionados</h2>
+<div class="posts_relacionados bloco_todas">
+    {% assign maxRelated = 6 %}
+    {% assign maxRelatedCounter = 0 %}
+
+    {% for post in site.posts %}
+    {% if maxRelatedCounter >= maxRelated %}
+    {% break %}
+    {% endif %}
+    {% for category in post.categories %}
+
+
+    {% if post.url != page.url %}
+    {% if page.categories contains category %}
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    <a href="{{ post.url }}" class="noticia">
+        <span class="foto_crop">
+            <span class="foto" style="background: url(/assets/img/posts/{{ post.image | default: "default.jpg" }}) no-repeat; background-size: cover;"></span>
+        </span>
+        <span class="texto">
+            <p class="tag artigos">
+                {% for post_category in post.categories %}
+                {% for category in site.data.categories %}
+                {% if post_category == category.slug %}{{ category.name }}{% endif %}
+                {% unless forloop.last %}&nbsp;{% endunless %}
+                {% endfor %}
+                {% endfor %}
+            </p>
+            <p class="titulo">{{ post.title }}</p>
+            <p class="data">{{ post.date | date: "%d/%m/%Y" }}</p>
+        </span>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+    <div>
+        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+    </div>
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    {% if maxRelatedCounter >= maxRelated %}
+    {% break %}
+    {% endif %}
+    {% endif %}
+
+    {% endfor %}
+</div>
+
+{% if page.comments %}
+{%- include disqus_comments.html -%}
+{% endif %}
+
+<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

@@ -1,0 +1,17 @@
+{% if paginator.total_pages > 1 %}
+<ul class="paginacao">
+    {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path }}#all-posts"><i class="fas fa-angle-left"></i></a></li>
+    {% endif %}
+    {% if paginator.page_trail %}
+    {% for trail in paginator.page_trail %}
+    <li>
+        <a href=" {{ trail.path | prepend: site.baseurl | replace: '//', '/' }}#all-posts" title="Página {{trail.num}}" {% if page.pagination_info.curr_page==trail.num %}class="ativo" {% endif %}>{{ trail.num }}</a>
+    </li>
+    {% endfor %}
+    {% endif %}
+    {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path }}#all-posts"><i class="fas fa-angle-right"></i></a></li>
+    {% endif %}
+</ul>
+{% endif %}

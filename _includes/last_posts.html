@@ -1,0 +1,22 @@
+<h2>Últimos posts <a href="/index" class="ver_todos">Ver todos os posts</a></h2>
+<div class="bloco_todas">
+    {% for post in site.posts limit:6 %}
+    <a href="{{ post.url }}" class="noticia">
+        <span class="foto_crop">
+            <span class="foto" style="background: url(/assets/img/posts/{{ post.image | default: "default.jpg" }}) no-repeat; background-size: cover;"></span>
+        </span>
+        <span class="texto">
+            <p class="tag artigos">
+                {% for post_category in post.categories %}
+                {% for category in site.data.categories %}
+                {% if post_category == category.slug %}{{ category.name }}{% endif %}
+                {% unless forloop.last %}&nbsp;{% endunless %}
+                {% endfor %}
+                {% endfor %}
+            </p>
+            <p class="titulo">{{ post.title }}</p>
+            <p class="data">{{ post.date | date: "%d/%m/%Y" }}</p>
+        </span>
+    </a>
+    {% endfor %}
+</div>

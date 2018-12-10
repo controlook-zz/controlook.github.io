@@ -1,0 +1,486 @@
+@charset "UTF-8";
+@import "fontawesome/fontawesome.scss";
+@import "normalize";
+@import "../node_modules/susy/sass/susy";
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700");
+@import "grid";
+@import "mixins_fixes";
+@import "gerais";
+@import "dropdown";
+@import "forms";
+@import "modals";
+@import "dropdown";
+@import "plugins";
+
+body.blog {
+  &.interno {
+    background: #f9faff;
+    .conteudo {
+      padding-top: 40px;
+      .titulo_wrap {
+        h1 {
+          margin-bottom: 15px;
+          margin-top: 15px;
+          color: #505a88;
+          font-size: 30px;
+          font-weight: 300;
+          max-width: 700px;
+
+          @include breakpoint($tablet) {
+            font-size: 20px;
+          }
+        }
+
+        img.foto {
+          border-radius: 10px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+
+          @include breakpoint($tablet) {
+          }
+        }
+
+        .data {
+          opacity: 1;
+          color: #a6a9ba;
+          font-size: 14px;
+          font-weight: 700;
+          margin-top: 5px;
+          margin-right: 5px;
+
+          &:before {
+            content: url(../img/calendar.png);
+            position: relative;
+            top: 2px;
+          }
+        }
+
+        .author {
+          opacity: 1;
+          color: #a6a9ba;
+          font-size: 14px;
+          font-weight: 700;
+          margin-top: 5px;
+
+          &:before {
+            content: url(../img/author-post.png);
+            position: relative;
+            top: 2px;
+          }
+        }
+      }
+
+      .ckeditor {
+        margin-bottom: 70px;
+      }
+    }
+  }
+
+  header {
+    .layout {
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      nav {
+        ul {
+          li {
+            a {
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .conteudo {
+    @include breakpoint($tablet) {
+      padding-bottom: 30px;
+    }
+    .layout {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+
+      h2 {
+        color: #6a6e90;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        @include breakpoint($tablet) {
+          margin-bottom: 30px;
+          font-size: 25px;
+        }
+        @include breakpoint($mobile) {
+          font-size: 23px;
+          margin-bottom: 20px;
+        }
+        .ver_todos {
+          float: right;
+          color: #44b953;
+          font-size: 18px;
+          text-decoration: none;
+          font-weight: 400;
+          position: relative;
+          top: 12px;
+
+          @include breakpoint($tablet) {
+            font-size: 16px;
+            display: none;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .tag {
+        border-radius: 14px;
+        background-color: #43afd7;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        display: inline-block;
+        padding: 7px 20px;
+
+        &.artigo {
+          background: #eb992f;
+        }
+
+        &.empresarial {
+          background: #43afd7;
+        }
+
+        &.igrejas {
+          background: #43d793;
+        }
+      }
+
+      .data {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 24px;
+
+        @include breakpoint($tablet) {
+          font-size: 13px;
+        }
+
+        &:before {
+          content: url(../img/data_branco.png);
+          position: relative;
+          margin-right: 10px;
+        }
+      }
+
+      .noticia {
+        display: block;
+        position: relative;
+        border-radius: 10px;
+        background-color: #474f7c;
+        overflow: hidden;
+        text-decoration: none;
+
+        &:after {
+          content: " ";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+          display: block;
+          width: 100%;
+          height: 367px;
+          background: url(../img/sombra.png) repeat;
+        }
+
+        .texto {
+          z-index: 3;
+          position: absolute;
+          display: block;
+          width: 100%;
+          padding-right: 80px;
+          transition: bottom 0.65s ease-in-out;
+        }
+
+        .foto {
+          transition: transform 0.65s ease-in-out, opacity 0.65s ease-in-out;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: block;
+          opacity: 0.5;
+          z-index: 1;
+        }
+      }
+
+      .bloco_noticia {
+        @include clearfix;
+        width: 100%;
+        margin-bottom: 80px;
+        position: relative;
+
+        @include breakpoint($tablet) {
+          margin-bottom: 40px;
+        }
+
+        @include breakpoint($mobile_grande) {
+          margin-bottom: 20px;
+        }
+
+        @include breakpoint($mobile) {
+          margin-bottom: 0;
+        }
+
+        .esquerda {
+          width: susy-span(7 of 12);
+          float: left;
+
+          @include breakpoint($tablet) {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+
+          .noticia {
+            height: 390px;
+
+            @include breakpoint($tablet) {
+              height: 300px;
+            }
+
+            &:hover {
+              .foto {
+                transform: scale(1.1);
+                opacity: 0.2;
+              }
+
+              .texto {
+                bottom: 55px;
+              }
+            }
+
+            .texto {
+              bottom: 35px;
+              left: 35px;
+
+              @include breakpoint($tablet) {
+                bottom: 25px;
+                left: 25px;
+              }
+
+              .tag {
+              }
+
+              .titulo {
+                color: #ffffff;
+                font-size: 25px;
+                font-weight: 400;
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+                @include breakpoint($tablet) {
+                  font-size: 20px;
+                }
+
+                @include breakpoint($mobile_grande) {
+                  font-size: 18px;
+                }
+
+                @include breakpoint($mobile_grande) {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+
+        .direita {
+          width: susy-span(5 of 12);
+          float: right;
+          margin-bottom: 20px;
+
+          @include breakpoint($tablet) {
+            width: 100%;
+          }
+
+          .noticia {
+            height: 185px;
+            margin-bottom: 20px;
+
+            @include breakpoint($tablet) {
+              height: 300px;
+            }
+
+            &:hover {
+              .foto {
+                transform: scale(1.1);
+                opacity: 0.2;
+              }
+
+              .texto {
+                bottom: 35px;
+              }
+            }
+
+            .texto {
+              bottom: 25px;
+              left: 25px;
+
+              .tag {
+              }
+
+              .titulo {
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 12px;
+                margin-bottom: 12px;
+
+                @include breakpoint($tablet) {
+                  font-size: 20px;
+                }
+
+                @include breakpoint($mobile_grande) {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .bloco_todas {
+        @include gal3;
+
+        .noticia {
+          display: block;
+          margin: 12px 10px;
+          background: none;
+          @include breakpoint($mobile_grande) {
+            margin: 12px 0px;
+          }
+
+          &:after {
+            display: none;
+          }
+
+          .foto_crop {
+            position: relative;
+            width: 100%;
+            display: block;
+            height: 222px;
+            overflow: hidden;
+            &:hover {
+              .foto {
+                transform: scale(1.1);
+                &:after {
+                  opacity: 0.7;
+                }
+              }
+
+              .texto {
+                bottom: 55px;
+              }
+            }
+            .foto {
+              opacity: 1;
+              border-radius: 10px;
+              overflow: hidden;
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              &:before {
+                content: " ";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+                display: block;
+                width: 100%;
+                height: 367px;
+                background: url(../img/sombra.png) repeat;
+              }
+
+              &:after {
+                position: absolute;
+                display: block;
+                background-color: #474f7c;
+                width: 100%;
+                opacity: 0.5;
+                height: 100%;
+                content: " ";
+                transition: opacity 0.35s ease-in-out;
+              }
+            }
+          }
+
+          .texto {
+            position: relative;
+            padding: 0;
+
+            .tag {
+              position: relative;
+              top: -65px;
+              position: absolute;
+              left: 20px;
+            }
+
+            .titulo {
+              color: #585c78;
+              font-size: 18px;
+              font-weight: 400;
+              margin-top: 20px;
+
+              @include breakpoint($mobile_grande) {
+                font-size: 16px;
+              }
+            }
+
+            .data {
+              opacity: 1;
+              color: #a6a9ba;
+              font-size: 14px;
+              font-weight: 700;
+              margin-top: 5px;
+
+              &:before {
+                content: url(../img/calendario_cinza.png);
+                position: relative;
+                top: 2px;
+              }
+            }
+          }
+        }
+      }
+
+      .paginacao {
+        li {
+          a {
+          }
+        }
+      }
+    }
+  }
+}
+
+.nao_encontrada {
+  max-width: 660px;
+  h1 {
+    color: #6a6e90;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    @include breakpoint($tablet) {
+      font-size: 35px;
+    }
+  }
+  p {
+    color: #6a6e90;
+    font-size: 20px;
+    margin-bottom: 60px;
+    @include breakpoint($tablet) {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+title: Controlook - Sistema Online de Gestão para Igrejas
+email: contato@controlook.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Controlook é um sistema online para organizar sua igreja
+  com uma eficaz gestão financeira e controle dos membros
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.controlook.com" # the base hostname & protocol for your site, e.g. http://example.com
+url_signup: "https://sys.controlook.com/signup/"
+twitter_username: controlook
+github_username: controlook
+instagram_username: controlook
+facebook_username: controlook
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+permalink: pretty
+
+autopages:
+  # Site-wide kill switch, disable here and it doesn't run at all
+  enabled: true
+
+  # Category pages, omit entire config element to disable
+  categories:
+    # Optional, the list of layouts that should be processed for every category found in the site
+    layouts:
+      - "categories.html"
+    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+    title: "Posts in category :cat"
+    # Optional, the permalink for the  pagination page (:cat is replaced),
+    # the pagination permalink path is then appended to this permalink structure
+    permalink: "/category/:cat"
+
+  # Collection pages, omit to disable
+  collections:
+    enabled: false
+  #   layouts:
+  #     - "collection.html"
+  #   title: "Posts in collection :coll" # :coll is replaced by the collection name
+  #   permalink: "/collection/:coll"
+  # Tag pages, omit to disable
+  tags:
+    enabled: false
+  #   layouts:
+  #     - "autopage_tags.html"
+  #   title: "Posts tagged with :tag" # :tag is replaced by the tag name
+  #   permalink: "/tag/:tag"
+
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: "/:num/"
+  # title_suffix: " - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+defaults:
+  - scope:
+      # path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      body_class: "interno"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scss
+  - run.sh
+  - bower.json
+  - gruntfile.js
+  - package.json
+  - package-lock.json
