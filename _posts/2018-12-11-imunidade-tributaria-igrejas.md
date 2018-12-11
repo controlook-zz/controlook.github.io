@@ -2,7 +2,7 @@
 layout: post
 title: Imunidade tributária de igrejas
 image: igrejas-devem-pagar-impostos.jpg
-date: 2018-12-11 10:10:00 -0300
+date: 2018-12-11 08:10:00 -0300
 categories: juridico
 ---
 

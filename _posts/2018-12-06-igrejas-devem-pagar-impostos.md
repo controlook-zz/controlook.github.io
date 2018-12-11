@@ -21,7 +21,7 @@ As igrejas (tempos religiosos) estão amparadas pela [imunidade tributária]({% 
 
 2. Finalidade
 
-As [igrejas são organizações religiosas]({% post_url 2018-11-09-personalidade-juridica-igreja %) sem fins lucrativos que prestam relevantes serviços sociais, pois na propagação do bem, contribuem positivamente para que as pessoas melhorem de vida, abandonem práticas ilícitas e vivam em harmonia uns para com os outros, evitando conflitos e se condicionando a uma vida produtiva voltada a construir um futuro bem-sucedido.
+As [igrejas são organizações religiosas]({% post_url 2018-11-09-personalidade-juridica-igreja %}) sem fins lucrativos que prestam relevantes serviços sociais, pois na propagação do bem, contribuem positivamente para que as pessoas melhorem de vida, abandonem práticas ilícitas e vivam em harmonia uns para com os outros, evitando conflitos e se condicionando a uma vida produtiva voltada a construir um futuro bem-sucedido.
 
 E ainda mais, a maiorias das igrejas atuam com um forte serviço social, especialmente com projetos que voltados a recuperação de dependentes químicos, combate a fome e a assistência a crianças e idosos, sendo também muito atuante em presídio e em muitas regiões de risco, sempre buscando recuperar pessoas e trazê-las para um bom caminho.
 
