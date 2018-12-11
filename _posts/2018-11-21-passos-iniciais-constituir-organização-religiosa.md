@@ -2,7 +2,7 @@
 layout: post
 title: Os passos iniciais para constituir uma Organização Religiosa
 image: personalidade-juridica-igreja.jpg
-date: 2018-11-09 09:30:00 -0200
+date: 2018-11-09 09:30:00 -0300
 categories: juridico
 ---
 
@@ -15,16 +15,16 @@ categories: juridico
    Brasil;
 7. Registrar a igreja no município, adquirindo a inscrição municipal e o alvará de funcionamento.
 
-É importante lembrar que no decorrer do processo de registro no município, a igreja passará pela vistoria do corpo de bombeiros e da vigilância sanitária, devendo ter a aprovação prévia destes antes da conclusão do registro no município, sabendo que estes critérios podem variar de acordo com cada município.
+É importante lembrar que no decorrer do processo de registro no município, a igreja passará pela vistoria do corpo de bombeiros e da vigilância sanitária, devendo ter a aprovação prévia destes antes da conclusão do registro, sabendo que estes critérios podem variar de acordo com cada município.
 
 **Dica Importante**
 
 Antes de alugar um imóvel para instalar uma igreja, faça um estudo de viabilidade prévia junto ao corpo de bombeiros, pois se não tiver viabilidade de instalação ou se for exigido uma reforma de alto custo, você saberá antecipadamente e economizará muito tempo e evitará gastos elevados no futuro. Também é importante verificar com antecedência as exigências da vigilância sanitária, especialmente quanto a depósitos, banheiros e cozinha.
 
-A igreja também terá o seu registro/matrícula na previdência social, conforme dispõe o decreto 3.048/99 em seu artigo 256.
+A igreja também terá o seu registro/matrícula na previdência social, conforme dispõe o [decreto 3.048/99](http://www.planalto.gov.br/ccivil_03/decreto/D3048.htm) em seu artigo 256.
 
-**Art. 256. A matrícula da empresa será feita:**
-
-- I simultaneamente com a inscrição no Cadastro Nacional da Pessoa Jurídica; ou
-
-- II perante o Instituto Nacional do Seguro Social, no prazo de trinta dias contados do início de suas atividades, quando não sujeita a inscrição no Cadastro Nacional da Pessoa Jurídica.
+> **Art. 256. A matrícula da empresa será feita:**
+>
+> - I simultaneamente com a inscrição no Cadastro Nacional da Pessoa Jurídica; ou
+>
+> - II perante o Instituto Nacional do Seguro Social, no prazo de trinta dias contados do início de suas atividades, quando não sujeita a inscrição no Cadastro Nacional da Pessoa Jurídica.

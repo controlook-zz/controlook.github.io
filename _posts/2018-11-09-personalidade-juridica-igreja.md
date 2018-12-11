@@ -2,18 +2,19 @@
 layout: post
 title: A personalidade jurídica das igrejas
 image: personalidade-juridica-igreja.jpg
-date: 2018-11-09 09:30:00 -0200
+date: 2018-11-09 09:30:00 -0300
 categories: juridico
 ---
 
-**Uma igreja pode ser considerada como um ajuntamento de pessoas, que professam a mesma fé, com a finalidade de prestar culto. Esta definição já promove sua existência de fato, porém, a existência de direito vem com a sua formalização jurídica, ou seja, a igreja precisa se tornar uma pessoa jurídica.**
+> **Uma igreja pode ser considerada como um ajuntamento de pessoas, que professam a mesma fé, com a finalidade de prestar culto. Esta definição já promove sua existência de fato, porém, a existência de direito vem com a sua formalização jurídica, ou seja, a igreja precisa se tornar uma pessoa jurídica.**
 
 Pessoa Jurídica é a união de indivíduos que, através de um contrato reconhecido por lei (contrato social ou estatuto social), formam uma nova pessoa, com personalidade distinta da de seus membros, podendo ter fins lucrativos ou não. A constituição jurídica de uma igreja está garantida pela Constituição Federal do Brasil, no artigo 5o que trata dos Direitos e Garantias Fundamentais.
 
-**Constituição Federal**
-**Art. 5°** Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:
-
-**VI** - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias.
+> **Constituição Federal**
+>
+> **Art. 5°** Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:
+>
+> **VI** - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias.
 
 Com fulcro na constituição federal, as organizações religiosas, são amparadas por princípios que garantem sua constituição, considerando:
 

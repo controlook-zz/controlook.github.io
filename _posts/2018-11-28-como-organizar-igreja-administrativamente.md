@@ -2,11 +2,9 @@
 layout: post
 title: Como organizar uma igreja administrativamente?
 image: administracao-igreja.png
-date: 2018-11-28 10:00:00 -0200
+date: 2018-11-28 10:00:00 -0300
 categories: gestao-igrejas
 ---
-
-como-organizar-igreja-administrativamente
 
 1. O primeiro passo é fazer o que chamamos de Diagnose. Ou seja: o levantamento das necessidades da Igreja e o que ela tem disponível.
 2. A seguir vem o diagnóstico: ou seja, o que tenho que implementar para que esta comunidade se torne uma Igreja funcional com todos os seus setores produzindo para que os alvos propostos sejam alcançados.

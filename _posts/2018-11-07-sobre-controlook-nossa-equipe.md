@@ -2,13 +2,13 @@
 layout: post
 title: Sobre o Controlook e nossa equipe
 image: cultura-controlook.jpg
-date: 2018-11-07 13:00:00 -0200
+date: 2018-11-07 13:00:00 -0300
 categories: cultura-controlook
 ---
 
-Toda equipe de sócios e gestores do controlook são formados por pessoas com décadas de vivência em atividades religiosas, principalmente atuando na liderança de igrejas, ministérios, projetos sociais e atividades eclesiásticas em geral. Além desse atuar voluntário, estes mesmos sócios são profissionais experientes em áreas como engenharia, ciência da computação, administração, contabilidade, finanças e direito.
+Toda equipe de sócios e gestores do [controlook](https://controlook.com) são formados por pessoas com décadas de vivência em atividades religiosas, principalmente atuando na liderança de igrejas, ministérios, projetos sociais e atividades eclesiásticas em geral. Além desse atuar voluntário, estes mesmos sócios são profissionais experientes em áreas como engenharia, ciência da computação, administração, contabilidade, finanças e direito.
 
-Com toda essa experiência foi possível construir o melhor e mais completo sistema de gestão de igrejas, e não paramos por aqui, continuaremos evoluindo e implementando melhorias contínuas para garantir cada vez mais excelência para nossos clientes e usuários.
+Com toda essa experiência foi possível construir o melhor e mais completo [sistema de gestão de igrejas](https://controlook.com/sistema-gestao-igrejas), e não paramos por aqui, continuaremos evoluindo e implementando melhorias contínuas para garantir cada vez mais excelência para nossos clientes e usuários.
 
 Nesta incansável missão de sempre oferecer o melhor, criamos este blog que tem a finalidade de promover orientações para auxiliar os gestores das igrejas e das demais organizações religiosas para atuarem com uma administração organizada cumprindo as principais exigências legais e formalidades necessárias para o bom desempenho de seus objetivos estatutários.
 
@@ -16,6 +16,6 @@ Administrar organizações religiosas envolve muita responsabilidade, pois lidam
 
 Certamente este blog lhe dará excelentes informações, dicas e sugestões.
 
-Esperamos que você faça um bom proveito deste material e desejamos muito sucesso em tudo quanto empreender, e lembre-se:
+Esperamos que você faça um bom proveito destes conteúdos e desejamos muito sucesso em tudo quanto empreender, e lembre-se:
 
-Se precisar de apoio e orientações financeiras, contábeis ou jurídicas, entre em contato conosco.
+Se precisar de apoio e orientações financeiras, contábeis ou jurídicas, [entre em contato conosco](https://controlook.com/contato).
