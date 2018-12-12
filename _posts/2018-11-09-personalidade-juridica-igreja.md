@@ -8,7 +8,7 @@ categories: juridico
 
 > **Uma igreja pode ser considerada como um ajuntamento de pessoas, que professam a mesma fé, com a finalidade de prestar culto. Esta definição já promove sua existência de fato, porém, a existência de direito vem com a sua formalização jurídica, ou seja, a igreja precisa se tornar uma pessoa jurídica.**
 
-Pessoa Jurídica é a união de indivíduos que, através de um contrato reconhecido por lei (contrato social ou estatuto social), formam uma nova pessoa, com personalidade distinta da de seus membros, podendo ter fins lucrativos ou não. A constituição jurídica de uma igreja está garantida pela Constituição Federal do Brasil, no artigo 5o que trata dos Direitos e Garantias Fundamentais.
+Pessoa Jurídica é a união de indivíduos que, através de um contrato reconhecido por lei (contrato social ou estatuto social), formam uma nova pessoa, com personalidade distinta da de seus membros, podendo ter fins lucrativos ou não. A [constituição jurídica de uma igreja](({% post_url 2018-11-14-como-igreja-adquire-personalidade-juridica %})) está garantida pela Constituição Federal do Brasil, no artigo 5o que trata dos Direitos e Garantias Fundamentais.
 
 > **Constituição Federal**
 >

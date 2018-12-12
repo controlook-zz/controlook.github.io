@@ -1,6 +1,10 @@
+- name: Controle financeiro
+  slug: controle-financeiro
 - name: Cultura Controlook
   slug: cultura-controlook
 - name: Gestão de Igrejas
   slug: gestao-igrejas
+- name: Integração
+  slug: integracao
 - name: Jurídico
   slug: juridico

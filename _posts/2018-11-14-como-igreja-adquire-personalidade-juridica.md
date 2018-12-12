@@ -32,8 +32,10 @@ A [lei 10.825/2003](http://www.planalto.gov.br/ccivil_03/LEIS/2003/L10.825.htm),
 
 Conforme preceitua a legislação supra, as organizações religiosas são de livre criação, devendo submeter seus atos constitutivos ao cartório de registro de pessoas jurídicas, e ainda, todas as posteriores alterações estatutárias e demais atas de assembleias gerais ordinárias e extraordinárias.
 
-**Dica Importante**
+### Dica Importante
 
 Uma falha muito comum que ocorre num grande número das igrejas é não observar normas estatutárias criadas por elas mesmas no que diz respeito a reuniões e registros de seus documentos, por exemplo, em muitos estatutos estão previstos datas e prazos limites para se fazer assembleias, prestar contas e registrar alguns documentos, como por exemplo, relatórios do conselho fiscal. A falta de observância dos critérios definidos no estatuto poderá invalidar o próprio ato e criar muitos problemas administrativos e até jurídicos para a igreja.
 
 É muito importante observar em detalhes tudo que está sendo estatutariamente exigido para que, ano a ano, todas as obrigações sejam cumpridas, especialmente aquelas que precisam ser levadas a registro formal em cartório.
+
+Aproveite para se aprofundar com os [passos iniciais para constituir uma Organização Religiosa]({% post_url 2018-11-21-passos-iniciais-constituir-organizacao-religiosa %}).
