@@ -18,4 +18,4 @@ Certamente este blog lhe dará excelentes informações, dicas e sugestões.
 
 Esperamos que você faça um bom proveito destes conteúdos e desejamos muito sucesso em tudo quanto empreender, e lembre-se:
 
-Se precisar de apoio e orientações financeiras, contábeis ou jurídicas, [entre em contato conosco](https://controlook.com/contato).
+Se precisar de apoio e orientações financeiras, contábeis ou jurídicas para sua igreja, [entre em contato conosco](https://controlook.com/contato).
