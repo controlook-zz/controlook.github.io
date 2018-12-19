@@ -3,6 +3,7 @@ layout: post
 title: Como organizar uma igreja administrativamente?
 image: administracao-igreja.png
 date: 2018-11-28 10:00:00 -0300
+author: Pr. Tércio Rocha Pinto
 categories: gestao-igrejas
 ---
 
