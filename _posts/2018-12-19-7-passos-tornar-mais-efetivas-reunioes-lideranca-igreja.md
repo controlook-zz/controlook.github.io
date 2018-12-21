@@ -4,7 +4,7 @@ title: 7 passos para tornar mais efetivas as reuniões de liderança em sua igre
 image: reunioes-lideranca-igreja.jpg
 date: 2018-12-17 08:54:00 -0300
 author: Pr. Tércio Rocha Pinto
-categories: gestao-igrejas
+categories: lideranca
 ---
 
 As reuniões precisam obedecer a um cronograma se o líder deseja que elas sejam eficazes e promovam as mudanças necessárias.
