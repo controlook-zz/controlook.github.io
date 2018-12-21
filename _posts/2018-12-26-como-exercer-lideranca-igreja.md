@@ -4,7 +4,7 @@ title: Como exercer liderança na sua Igreja?
 image: exercer-lideranca-igreja.jpg
 date: 2018-12-26 07:54:00 -0300
 author: Pr. Tércio Rocha Pinto
-categories: gestao-igrejas
+categories: lideranca
 ---
 
 Existem ordinariamente três tipos de líder:
