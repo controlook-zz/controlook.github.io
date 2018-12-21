@@ -5,14 +5,14 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="{% if page.title %}{{ page.title | append: " - Controlook" }}{% else %}{{ site.title }}{% endif %}" />
-<meta property="og:image" content="{{ site.url }}/assets/img/img-facebook.jpg" />
+<meta property="og:image" content="{{ site.url }}/assets/img/{% if page.image %}posts/{{ page.image }}{% else %}img-facebook.jpg{% endif %}" />
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:locale" content="pt_BR" />
 <meta property="og:site_name" content="{% if page.title %}{{ page.title | append: " - Controlook" }}{% else %}{{ site.title }}{% endif %}" />
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:type" content="blog" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="{{ site.url }}/assets/img/img-facebook.jpg" />
+<meta name="twitter:image" content="{{ site.url }}/assets/img/{% if page.image %}posts/{{ page.image }}{% else %}img-facebook.jpg{% endif %}" />
 <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: " - Controlook" }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:site" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />

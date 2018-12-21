@@ -52,9 +52,9 @@
     <a href="#" class="logo"><img src="/assets/img/logo-controlook.png" alt="Logo Controlook"></a>
     <nav>
         <ul>
-            <li><a href="/category/cultura-controlook">Cultura Controlook</a></li>
-            <li><a href="/category/gestao-igrejas">Gestão de Igrejas</a></li>
-            <li><a href="/category/juridico">Jurídico</a></li>
+            {% for category in site.data.categories %}
+            <li><a href="/{{category.slug}}">{{ category.name }}</a></li>
+            {% endfor %}
             <li class="cta"><a href="https://sys.controlook.com/signup" class="botao verde">Cadastre-se</a></li>
         </ul>
     </nav>
