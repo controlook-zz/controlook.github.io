@@ -11,10 +11,9 @@
                 <li class="has-dropdown">
                     <a href="#">Categorias</a>
                     <ul>
-                        <!-- <li><a href="/category/financeiro">Financeiro</a></li> -->
-                        <li><a href="/category/cultura-controlook">Cultura Controlook</a></li>
-                        <li><a href="/category/gestao-igrejas">Gestão de Igrejas</a></li>
-                        <li><a href="/category/juridico">Jurídico</a></li>
+                        {% for category in site.data.categories %}
+                        <li><a href="/category/{{category.slug}}">{{ category.name }}</a></li>
+                        {% endfor %}
                     </ul>
                 </li>
                 <li class="cta"><a href="https://www.controlook.com" class="botao verde">Conheça o Controlook</a></li>
