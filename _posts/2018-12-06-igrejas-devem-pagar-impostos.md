@@ -17,7 +17,7 @@ Dois motivos pelos quais as igrejas não devem pagar impostos:
 
 ### 1 - Legalidade
 
-As igrejas (tempos religiosos) estão amparadas pela [imunidade tributária]({% post_url 2018-12-11-imunidade-tributaria-igrejas %}) garantida no artigo 150, Inciso VI, alínea “b” da Constituição Federal de 1988, o qual prevê que é vedado às pessoas políticas instituírem impostos sobre templos de qualquer culto no que se refere aos seus patrimônio, renda e serviços vinculados a suas finalidades essenciais. Esta imunidade corrobora a garantia de liberdade de crença, contida no inciso VI do artigo 5º da Carta Magna, segundo o qual é assegurado no Brasil o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e as suas liturgias, portando, seria totalmente ilegal qualquer tipo de tributação incidente sobre os valores arrecadados pelas igrejas.
+As igrejas (templos religiosos) estão amparadas pela [imunidade tributária]({% post_url 2018-12-11-imunidade-tributaria-igrejas %}) garantida no artigo 150, Inciso VI, alínea “b” da Constituição Federal de 1988, o qual prevê que é vedado às pessoas políticas instituírem impostos sobre templos de qualquer culto no que se refere aos seus patrimônio, renda e serviços vinculados a suas finalidades essenciais. Esta imunidade corrobora a garantia de liberdade de crença, contida no inciso VI do artigo 5º da Carta Magna, segundo o qual é assegurado no Brasil o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e as suas liturgias, portando, seria totalmente ilegal qualquer tipo de tributação incidente sobre os valores arrecadados pelas igrejas.
 
 ### 2 - Finalidade
 
