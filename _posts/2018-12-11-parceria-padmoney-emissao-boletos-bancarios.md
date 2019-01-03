@@ -2,7 +2,7 @@
 layout: post
 title: Parceria para emissão de boletos usando o Padmoney
 image: parceria-padmoney-emissao-boleto-bancario.jpg
-date: 2018-12-17 08:10:00 -0300
+date: 2019-01-03 15:10:00 -0300
 categories: integracao
 ---
 
@@ -32,4 +32,4 @@ Outras funcionalidades que o padmoney oferece:
 
 ## Como usar?
 
-Você pode cadastrar sua organização religiosa ou social **gratuitamente** através do link https://sys.controlook.com/signup/. As tarifas poderão ser visualizadas previamente e só serão cobradas se os boletos forem efetivamente liquidados.
+Você pode contratar o módulo de integração dentro do próprio Controlook através do [Marketplace](https://marketplace.controlook.com/). Qualquer dúvida, entre em contato com nosso suporte!
