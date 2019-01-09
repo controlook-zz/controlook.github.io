@@ -3,6 +3,14 @@ layout: default
 comments: true
 ---
 
+{% capture count_words %} 
+	{{ page.content | number_of_words }} 
+{% endcapture %}
+
+{% capture time_words %} 
+	{{count_words | divided_by: 5}} 
+{% endcapture %} 
+
 <div class="titulo_wrap">
     <p class="tag empresarial">
         {% for post_category in page.categories %}
@@ -13,9 +21,10 @@ comments: true
         {% endfor %}
     </p>
     <h1>{{ page.title | escape }}</h1>
-    <p>
-        <span class="data">{{ page.date | date: "%d/%m/%Y" }}</span>
-        <span class="author"> {{ page.author | default: "Equipe Controlook" }}</span>
+    <p class="post-data">
+        <span class="date">{{ page.date | date: "%d/%m/%Y" }}</span>
+        <span class="author">{{ page.author | default: "Equipe Controlook" }}</span>
+        <span class="time-read">Tempo de leitura: {{time_words | divided_by: 60}} min</span>
     </p>
     <img class="foto" src="/assets/img/posts/{{ page.image | default: "default.jpg" }}" alt="">
 </div>
