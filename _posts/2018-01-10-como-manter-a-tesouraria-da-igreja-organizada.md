@@ -32,6 +32,6 @@ Armazenar os dados de uma forma organizada pode ser uma tarefa difícil quando a
 
 Mas se o problema é complexo, a solução é bem mais simples, só é preciso que você implemente um bom sistema de gestão financeira em sua Igreja. Desta forma todos os dados ficam armazenados em um único lugar, tornando assim mais fácil de gerir.
 
-Contudo não é recomendável que use um sistema convencional de [gestão financeira](https://controlook.com), mas sim um que seja especializado em gestão de igrejas. 
+Contudo não é recomendável que use um sistema convencional de gestão financeira, mas sim um que seja [especializado em gestão de igrejas](https://controlook.com). 
 
 Organizar a tesouraria de uma igreja não é uma tarefa simples, requer muito trabalho e disciplina, mas com as nossas dicas fica bem mais fácil. Caso ainda tenha dúvida, deixe sua pergunta nos comentários e nossa equipe estará pronta para responder.
