@@ -2,7 +2,7 @@
 layout: post
 title: Como manter a tesouraria da Igreja organizada
 image: tesouraria-igreja.jpg
-date: 2018-01-10 14:00:00 -0300
+date: 2019-01-10 14:00:00 -0300
 categories: controle-financeiro
 ---
 
